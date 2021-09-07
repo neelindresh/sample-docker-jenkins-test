@@ -1,5 +1,6 @@
 FROM python:3.6-slim
-COPY /src /
 WORKDIR /src
+COPY /src /src
+
 
 CMD [ "python", "app.py"]
